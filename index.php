@@ -1,6 +1,6 @@
 <?php 
 //koneksaun ba database
-$conn = mysqli_connect("localhost","root","saeria","simple_php");
+$conn = mysqli_connect("localhost","root","","simple_php");
 //ambil data dari table estudante /query data
 $result = mysqli_query($conn,"SELECT * FROM estudante");
 //foti data estudante husi object result ==fetch
